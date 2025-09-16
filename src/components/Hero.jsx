@@ -11,7 +11,11 @@ function Hero() {
         className="hero-image w-32 h-32 md:w-48 md:h-48 rounded-full flex-shrink-0 mb-8 md:mb-0 md:mr-10 flex items-center justify-center"
         style={{ backgroundColor: "#BB86FC" }}
       >
-        <img className="w-full h-full object-cover rounded-full" src="./images/vik.jpg" alt="Foto van Vik Sluijter" />
+        <img
+          className="w-full h-full object-cover rounded-full"
+          src="./public/vik.jpg"
+          alt="Foto van Vik Sluijter"
+        />
       </div>
       {/* Tekst kaart */}
       <div

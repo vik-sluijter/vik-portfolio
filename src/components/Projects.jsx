@@ -6,19 +6,19 @@ function Projects() {
       title: "G.U.M. - Heightmatch",
       description:
         "Een IOT-Project waarbij gebruikers sprongen op een platform om zo te zien welk dier even hoog springt.",
-      image: "./images/Heigthmatch.jpg",
+      image: "./public/Heightmatch.jpg",
     },
     {
       title: "Arteveldehogeschool - GolfnGo",
       description:
         "Een golfsimulatiespel ontwikkeld in Unreal Engine, waarbij spelers de bal door obstakels moesten navigeren om de hole te bereiken.",
-      image: "./images/GolfnGo.png",
+      image: "./public/GolfnGo.png",
     },
     {
       title: "Wintercircus - Tembo",
       description:
         "Interactieve webapplicatie waarbij we een tekening omvormen naar een 3D object.",
-      image: "./images/Tembo.jpg",
+      image: "./public/Tembo.jpg",
     },
   ];
 
