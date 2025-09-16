@@ -6,19 +6,19 @@ function Projects() {
       title: "G.U.M. - Heightmatch",
       description:
         "Een IOT-Project waarbij gebruikers sprongen op een platform om zo te zien welk dier even hoog springt.",
-      image: "vik-portfolio/Heigthmatch.jpg",
+      image: "/Heigthmatch.jpg",
     },
     {
       title: "Arteveldehogeschool - GolfnGo",
       description:
         "Een golfsimulatiespel ontwikkeld in Unreal Engine, waarbij spelers de bal door obstakels moesten navigeren om de hole te bereiken.",
-      image: "vik-portfolio/Heigthmatch.jpg",
+      image: "/GolfnGo.png",
     },
     {
       title: "Wintercircus - Tembo",
       description:
         "Interactieve webapplicatie waarbij we een tekening omvormen naar een 3D object.",
-      image: "vik-portfolio/Heightmatch.jpg",
+      image: "/Tembo.jpg",
     },
   ];
 
@@ -75,7 +75,9 @@ function Projects() {
               >
                 {project.description}
               </p>
-              <div className="w-full flex justify-center"></div>
+              <div className="w-full flex justify-center">
+                <img src={project.image} alt={project.title} />
+              </div>
             </div>
           </div>
         ))}
