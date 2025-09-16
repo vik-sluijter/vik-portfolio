@@ -1,5 +1,4 @@
 import React from "react";
-import vik from "../../public/vik.jpg";
 import "./tailwind.css";
 function Hero() {
   return (
@@ -14,7 +13,7 @@ function Hero() {
       >
         <img
           className="w-full h-full object-cover rounded-full"
-          src={vik}
+          src="/vik.jpg"
           alt="Foto van Vik Sluijter"
         />
       </div>
