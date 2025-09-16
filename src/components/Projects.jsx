@@ -6,7 +6,7 @@ function Projects() {
       title: "G.U.M. - Heightmatch",
       description:
         "Een IOT-Project waarbij gebruikers sprongen op een platform om zo te zien welk dier even hoog springt.",
-      image: "/public/Heightmatch.jpg",
+      image: "/public/Heigthmatch.jpg",
     },
     {
       title: "Arteveldehogeschool - GolfnGo",
