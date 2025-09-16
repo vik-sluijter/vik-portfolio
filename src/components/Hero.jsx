@@ -13,7 +13,7 @@ function Hero() {
       >
         <img
           className="w-full h-full object-cover rounded-full"
-          src="/vik.jpg"
+          src="/vik-portfolio/vik.jpg"
           alt="Foto van Vik Sluijter"
         />
       </div>
