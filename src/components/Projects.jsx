@@ -6,7 +6,7 @@ function Projects() {
       title: "G.U.M. - Heightmatch",
       description:
         "Een IOT-Project waarbij gebruikers sprongen op een platform om zo te zien welk dier even hoog springt.",
-      image: "/Heigthmatch.jpg",
+      image: "/Heightmatch.png",
     },
     {
       title: "Arteveldehogeschool - GolfnGo",
@@ -18,7 +18,7 @@ function Projects() {
       title: "Wintercircus - Tembo",
       description:
         "Interactieve webapplicatie waarbij we een tekening omvormen naar een 3D object.",
-      image: "/Tembo.jpg",
+      image: "/Tembo.png",
     },
   ];
 
@@ -75,9 +75,7 @@ function Projects() {
               >
                 {project.description}
               </p>
-              <div className="w-full flex justify-center">
-                <img src={project.image} alt={project.title} />
-              </div>
+              <div className="w-full flex justify-center"></div>
             </div>
           </div>
         ))}
