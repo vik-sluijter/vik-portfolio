@@ -1,4 +1,7 @@
 import React from "react";
+import heightmatch from "../../public/Heigthmatch.jpg";
+import golfngo from "../../public/GolfnGo.png";
+import Tembo from "../../public/Tembo.jpg";
 import "./tailwind.css";
 function Projects() {
   const projects = [
@@ -6,19 +9,19 @@ function Projects() {
       title: "G.U.M. - Heightmatch",
       description:
         "Een IOT-Project waarbij gebruikers sprongen op een platform om zo te zien welk dier even hoog springt.",
-      image: "/public/Heigthmatch.jpg",
+      image: { heightmatch },
     },
     {
       title: "Arteveldehogeschool - GolfnGo",
       description:
         "Een golfsimulatiespel ontwikkeld in Unreal Engine, waarbij spelers de bal door obstakels moesten navigeren om de hole te bereiken.",
-      image: "/public/GolfnGo.png",
+      image: { golfngo },
     },
     {
       title: "Wintercircus - Tembo",
       description:
         "Interactieve webapplicatie waarbij we een tekening omvormen naar een 3D object.",
-      image: "/public/Tembo.jpg",
+      image: { Tembo },
     },
   ];
 
